@@ -20,7 +20,8 @@ export default function RootLayout() {
   useEffect(() => {
     if (loaded) {
       SplashScreen.hideAsync();
-      router.replace("/registro")
+      //router.replace("/registro")
+      router.replace("/contador")
       
     }
   }, [loaded]);
