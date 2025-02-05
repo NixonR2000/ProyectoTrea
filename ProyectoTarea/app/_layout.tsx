@@ -21,7 +21,8 @@ export default function RootLayout() {
     if (loaded) {
       SplashScreen.hideAsync();
       //router.replace("/registro")
-      router.replace("/contador")
+      //router.replace("/contador")
+      router.replace("/reloj")
       
     }
   }, [loaded]);
